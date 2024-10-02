@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Stima-Tech', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -36,9 +36,8 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
@@ -62,9 +61,9 @@ const config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
@@ -72,25 +71,49 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
-        title: 'My Site',
+        title: 'Stima API 使用指南',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo',
+          src: 'img/logo.png',
+          href: 'https://docs.stima.tech',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '所有文件',
           },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/test', label: 'Test', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'doc',
+            docId: 'usage',
+            position: 'left',
+            label: '使用場景',
+          },
+          {
+            type: 'doc',
+            docId: 'installation/chatbox',
+            position: 'left',
+            label: '安裝及應用',
+          },
+          {
+            type: 'doc',
+            docId: 'stimachat',
+            position: 'left',
+            label: 'StimaChat 先進對話系統',
+          },
+          {
+            type: 'doc',
+            docId: 'opensource',
+            position: 'left',
+            label: '開源模型',
+          },
+          {
+            href: 'https://api.stima.tech',
+            label: 'Stima API 官網',
             position: 'right',
           },
         ],
@@ -98,47 +121,79 @@ const config = {
       footer: {
         style: 'dark',
         links: [
+          // {
+          //   title: '使用指南',
+          //   items: [
+          //     {
+          //       label: '使用場景',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: '安裝及應用',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'StimaChat 對話系統',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: '開源模型',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
-            title: 'Docs',
+            title: '服務',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Stima API 官網',
+                href: 'https://api.stima.tech',
+              },
+              {
+                label: 'StimaChat 對話系統',
+                href: 'https://chat.stima.tech',
+              },
+              {
+                label: 'Stima Tech 伺服器狀態',
+                href: 'https://stats.stima.tech/status/stima',
+              },
+              {
+                label: 'Cursor IDE 歷史版本安裝檔',
+                href: 'https://share.stima.tech/share/5aAdVfAo',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '聯繫我們',
             items: [
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Email',
+                href: 'mailto:support@stima.tech',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/stimatechnologies/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/stimatech',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/104405674/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/stima-tech',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© 2024 Stima Tech All Rights Reserved.`,
       },
       prism: {
         theme: prismThemes.github,

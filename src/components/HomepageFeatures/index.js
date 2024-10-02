@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '易於使用',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Stima API 是一個整合多種大型語言模型的統一 API 平台，提供了一系列的 AI 模型服務，可以幫助你快速構建自己的應用。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '使用指南',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Stima API 使用指南幫助您快速上手，了解如何使用 Stima API 讓日常生活受惠於 AI 的便利。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '開發者指南',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Stima API 幫助開發者快速在開發過程中，使用多種大型語言模型輔助開發，並且可以快速部署到自己的應用中。
       </>
     ),
   },

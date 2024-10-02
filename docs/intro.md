@@ -1,27 +1,58 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# 歡迎來到我們的文檔
+# 快速了解 Stima API 
 
-讓我們開始探索這個項目吧！
+### 1. 網站連結 - **[Stima API](https://api.stima.tech/)**
+點擊 **[Stima API](https://api.stima.tech/)** 進入官網，即可看到目前支援的 **應用程式**、**模型支援列表**，以及 **更多資訊**。
 
-## 快速入門
 
-首先，讓我們了解一下項目的基本結構。
+### 2. 登入 
+點擊右上角的【登入】即可進行註冊以進行後續登入，目前支援 **電子郵件**、**使用者帳號** 登入。
 
-### 你需要準備的東西
+![image](https://hackmd.io/_uploads/BkF34D9R0.png)
 
-- 對 Python 的基本了解
-- 一個文本編輯器或 IDE
-- 熱情和好奇心！
 
-## 項目概述
+### 3. API Key 頁面
 
-這個項目旨在 [簡短描述項目目標]。
+完成註冊後，此處將會顯示您的 API Key 資訊，**預設會有一組 default**，點擊【複製】即可獲得您的預設 API Key，其為 *sk-* 開頭之字串，**請妥善保管**。
+倘若您想要新增 API Key，可以點擊【新增 API Key】。
+![image](https://hackmd.io/_uploads/B1lHDCUiA.png)
+![image](https://hackmd.io/_uploads/HknuEMBpC.png)
 
-## 下一步
 
-繼續閱讀下面的章節，深入了解每個模塊的詳細信息。
 
-如果你有任何問題，隨時查看我們的常見問題解答或聯繫支持團隊。
+自行建立 API Key 包含自訂 **額度分配**、**允許使用之模型範圍**、**限制IP存取** 與 **有效期限**，允許您將 API Key 分配給不同的使用者，並設定不同的額度與模型使用範圍。
+
+![image](https://hackmd.io/_uploads/Hk02P08iR.png)
+![image](https://hackmd.io/_uploads/HyYTEGHpA.png)
+
+
+
+
+### 4. 加值區
+
+當於[Stima API 購買頁面](https://payment.stima.tech/)購買方案並取得加值碼後，即來到此區進行自助加值。輸入加值碼後點擊「加值」即可完成額度加值。
+後續在使用過程中，您可以隨時回到此處進行加值以及 **查詢剩餘額度**。
+
+![image](https://hackmd.io/_uploads/ryEm_0Lj0.png)
+
+
+
+
+
+### 5. 日誌區
+
+透過 **日誌** ，您能監控每個API Key 之 **使用紀錄**、**Token 消耗量** 及 **消耗額度**。
+
+![image](https://hackmd.io/_uploads/BJRwOR8jC.png)
+![image](https://hackmd.io/_uploads/BJJzrMrTA.png)
+
+
+
+### 6. 設定
+
+此處提供擁有 **GitHub** 帳號的使用者，可以透過綁定 **GitHub 帳號** ，以利後續進行快速登入。
+
+![image](https://hackmd.io/_uploads/HJJC0RLjR.png)

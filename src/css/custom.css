@@ -6,20 +6,28 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  /* --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-darkest: #205d3b; */
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #293A4B;
+  --ifm-color-primary-dark: #293A4B;
+  --ifm-color-primary-darker: #293A4B;
+  --ifm-color-primary-darkest: #293A4B;
+  /* --
+  --ifm-color-primary-light: #48607a;
+  --ifm-color-primary-lighter: #48607a;
+  --ifm-color-primary-lightest: #48607a; */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #48a38f;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -28,3 +36,57 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* 為導航欄項目添加微妙的動態效果 */
+.navbar__item {
+  position: relative;
+  transition: color 0.2s ease;
+  cursor: pointer; /* 明確指示項目可點擊 */
+}
+
+.navbar__item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--ifm-navbar-link-hover-color);
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar__item:hover::after {
+  transform: scaleX(1);
+}
+
+/* 為當前活動的導航項保持 Docusaurus 的默認樣式 */
+.navbar__link--active {
+  font-weight: 600; /* 稍微加粗以表示當前頁面 */
+}
+
+.navbar__link--active::after {
+  transform: scaleX(0); /* 初始狀態不顯示下劃線 */
+  background-color: var(--ifm-navbar-link-active-color);
+}
+
+/* 當前活動項的懸停效果 */
+.navbar__link--active:hover::after {
+  transform: scaleX(1);
+}
+
+/* 為特殊項目添加輕微的強調 */
+.navbar__item--special {
+  font-weight: 600;
+}
+
+.navbar__item--special::after {
+  background-color: var(--ifm-color-primary);
+}
+
+/* 輕微的懸停顏色變化，增強可點擊感 */
+.navbar__item:hover {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
