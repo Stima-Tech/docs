@@ -26,14 +26,15 @@ print(chat_completion.choices[0].message.content)
 
 ### cURL
 
-使用 `cURL` 呼叫 Stima API，僅需修改 `api_key` 和 `model` 變數即可呼叫所有支援模型。
+使用 `cURL` 呼叫 Stima API，僅需修改 `api_key` 和 `model` 變數即可呼叫所有支援模型。  
+請將 `sk-xxxxxxxxxxxxxxxxxxxxxxxx`, `model`數值修改成您的 **API Key** 及 **模型別名**。
 
 ```bash
 curl https://api.stima.tech/v1/chat/completions \
     -H "Content-Type: application/json" \
-    -H "Authorization: Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx" \ # 請換成您的 API Key
+    -H "Authorization: Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxx" \
     -d '{
-        "model": "gpt-3.5-turbo" # 請修改 model 變數以呼叫不同模型
+        "model": "o1-mini",
         "messages": [
             {
                 "role": "system",
