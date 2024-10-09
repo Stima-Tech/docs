@@ -103,7 +103,7 @@ const config = {
             type: 'doc',
             docId: 'stimachat',
             position: 'left',
-            label: 'StimaChat 先進對話系統',
+            label: 'StimaChat 聊天對話系統',
           },
           {
             type: 'doc',

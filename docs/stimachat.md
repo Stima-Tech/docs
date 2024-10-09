@@ -1,4 +1,4 @@
-# StimaChat 先進對話系統
+# StimaChat 聊天對話系統
 
 **[StimaChat](https://chat.stima.tech)** 是一款由 本公司 (Stima Tech) 研發之先進對話系統，採用 **雙向多輪對話** 模式，支援 **60+ 大型語言模型** 的交流。
 
