@@ -154,7 +154,7 @@ const config = {
                 href: 'https://chat.stima.tech',
               },
               {
-                label: 'Stima Research 研究團隊',
+                label: 'Stima Research 研究報告',
                 href: 'https://blog.stima.tech',
               },
               {
