@@ -203,6 +203,23 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      algolia: {
+        // Algolia 提供的應用 ID
+        appId: 'YOUR_APP_ID',
+
+        // 公開 API 密鑰：提交它沒有風險
+        apiKey: 'YOUR_SEARCH_API_KEY',
+
+        indexName: 'YOUR_INDEX_NAME',
+
+        // 可選：見下文
+        contextualSearch: true,
+
+        // 可選：搜索頁面的路徑，默認啟用（可以用 `false` 禁用）
+        searchPagePath: 'search',
+
+        // ... 其他可選配置
+      },
     }),
 };
 
