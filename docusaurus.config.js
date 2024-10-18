@@ -61,7 +61,10 @@ const config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            './src/css/custom.css',
+            './src/css/hover-highlight.css',
+          ]
         },
       },
     ],

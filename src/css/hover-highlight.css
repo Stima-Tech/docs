@@ -1,0 +1,56 @@
+/* 頁腳鏈接項目樣式 */
+.footer__link-item {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .footer__link-item::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -5px;
+    right: -5px;
+    bottom: -2px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .footer__link-item:hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .footer__link-item:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* 導航欄項目樣式 */
+  .navbar__item {
+    position: relative;
+  }
+  
+  .navbar__item::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -5px;
+    right: -5px;
+    bottom: -2px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar__item:hover::before {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar__item:hover {
+    color: var(--ifm-navbar-link-hover-color);
+  }
+  
