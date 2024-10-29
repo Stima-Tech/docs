@@ -2,14 +2,14 @@
 sidebar_position: 2
 ---
 
-# 使用場景
+# 各模型使用場景
 
 目前市面上之主要大型語言模型供應商包含有 **[OpenAI](https://openai.com/)**, **[Anthropic](https://www.anthropic.com/)**, **[Google](https://gemini.google.com/)**, **[Meta](https://www.llama.com/)**, **[Microsoft](https://www.microsoft.com/en-us/ai/microsoft-365-copilot)**, **[Mistral](https://mistral.ai/)** 以及 **[Alibaba](https://www.alibabacloud.com/)**，其各自提供不同領域優勢的人工智慧解決方案，滿足各種應用需求。
 
 ### 推薦模型
 * 【**知識查詢、文章生成、日常需求**】: **OpenAI GPT-4o**，模型代號 `gpt-4o`。
-* 【**程式開發**】 : **Anthropic Claude 3.5 Sonnet**，模型代號 `claude-3-5-sonnet-20240620`。
-* 【**翻譯需求 (網頁內容、字幕、論文)**】 : **Google Gemini 1.5 Flash**，模型代號 `gemini-1.5-flash-latest`。
+* 【**程式開發**】 : **Anthropic Claude 3.5 Sonnet**，模型代號 `claude-3-5-sonnet-20241022`, `claude-3-5-sonnet-20240620`。
+* 【**翻譯需求 (網頁內容、字幕、論文)**】 : **Google Gemini 1.5 Flash**，模型代號 `gpt-4o-mini`, `gemini-1.5-flash-latest`。
 
 <!-- ### 模型命名規則:
 **模型名稱-子版本**，如`claude-3-5-sonnet-20240620`、`gpt-4-turbo-2024-04-09`、`gemini-1.5-flash-latest`、`gpt-4o-mini-2024-07-18`... -->
