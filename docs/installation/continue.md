@@ -1,6 +1,6 @@
 # Continue Dev 程式開發助手
 
-**Continue Dev** 是一款為 **VSCode**, **Cursor IDE** 開發的擴充套件，功能在於簡化用戶與 ChatGPT 等大型語言模型的互動過程。允許使用者輕鬆將程式碼片段導入大型語言模型，以利用大型語言模型進行輔助開發。
+[**Continue Dev**](https://www.continue.dev/) 是一款為 **VSCode**, **Cursor IDE** 開發的擴充套件，功能在於簡化用戶與 ChatGPT 等大型語言模型的互動過程。允許使用者輕鬆將程式碼片段導入大型語言模型，以利用大型語言模型進行輔助開發。
 
 ### 介紹
 
