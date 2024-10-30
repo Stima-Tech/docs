@@ -1,4 +1,4 @@
-# Cline (prev. Claude Dev) 使用 Stima API 範例
+# Cline (prev. Claude Dev)
 ###  安裝 Cline
 - 請至 VSCode 擴充功能安裝 `Cline` 套件: [**Cline (prev. Claude Dev)**](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)
 ### 使用 Stima API

@@ -1,4 +1,4 @@
-# Python, cURL 呼叫 API 範例
+# Python, cURL 使用 API 範例
 
 ### Python
 

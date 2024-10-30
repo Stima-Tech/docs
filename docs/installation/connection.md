@@ -1,4 +1,4 @@
-# BASE_URL 連線說明
+# Base URL, API Key 連接說明
 
 Stima Tech 提供 `BASE_URL` 與 `API Key` 連接至自建專案，不同的應用程式適用於不同的 `BASE_URL`。
 

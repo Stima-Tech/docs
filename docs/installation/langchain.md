@@ -1,4 +1,4 @@
-# LangChain 使用 Stima API 範例
+# LangChain
 
 ### 安裝 LangChain
 ```bash
@@ -7,6 +7,9 @@ pip install langchain-openai
 ```
 
 ### 使用 Stima API 範例
+
+請至 [**Stima API Key**](https://api.stima.tech/token) 取得您的 API Key
+
 ```python
 from langchain_openai import ChatOpenAI
 

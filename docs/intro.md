@@ -11,7 +11,7 @@ sidebar_position: 1
 ### 2. 登入 
 點擊右上角的【登入】即可進行註冊以進行後續登入，目前支援 **電子郵件**、**使用者帳號** 登入。
 
-![image](https://hackmd.io/_uploads/BkF34D9R0.png)
+![image](https://raw.githubusercontent.com/Stima-Tech/documentation/refs/heads/main/static/img/welcome.png)
 
 
 ### 3. API Key 頁面
@@ -51,8 +51,8 @@ sidebar_position: 1
 
 
 
-### 6. 設定
+<!-- ### 6. 設定
 
 此處提供擁有 **GitHub** 帳號的使用者，可以透過綁定 **GitHub 帳號** ，以利後續進行快速登入。
 
-![image](https://hackmd.io/_uploads/HJJC0RLjR.png)
+![image](https://hackmd.io/_uploads/HJJC0RLjR.png) -->
