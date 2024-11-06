@@ -41,19 +41,19 @@ export const RedText = ({children}) => (
 </CenteredContainer> -->
 
 
-* **模型名稱:** 模型名稱直接對應其開發公司或發行商，例如 GPT, o1 (**OpenAI**)、Claude (**Anthropic**)、Gemini (**Google**)、Llama* (**Meta**) 等等。
+* **模型名稱:** 模型名稱直接對應其開發公司或發行商，例如 `GPT*`, `o1-preview`, `o1-mini` (**OpenAI**)、`Claude` (**Anthropic**)、`Gemini` (**Google**)、`Llama*` (**Meta**) 等等。
 * **版本號:** 通常版本號較大的模型相比於版本號較小的模型在能力上有**顯著**的提升，擁有更強的推理能力，例如 `gpt-4o` 相比於 `gpt-4-turbo` 在能力上有顯著的提升。
 * **子版本:** 不同子版本之間存在性能差異，但不如主版本之間的差異之大。子版本的命名多變，例如 `gpt-4o`、`gpt-4` 等。以 **Gemini** 為例，**mini, flash** 通常代表模型參數較少，價格也較便宜。當模型名稱包含 **32k, 128k, 4096**，代表該模型接受之最大上下文長度。
 
 
 ### **OpenAI**
 **應用場域**：OpenAI 的模型廣泛應用於**聊天機器人、內容生成、日常助理**等多個領域。
-**OpenAI 推薦的模型** 為 `o1`, `o1-mini`, `gpt-4o`。
+**OpenAI 推薦的模型** 為 `o1-preview`, `o1-mini`, `gpt-4o`, `gpt-4o-mini`。
 
 ### **Anthropic**
 **應用場域**：**Claude** 是目前最強的**程式開發助理**，其能透過 Retrieval Augmented Generation (RAG) 理解您的程式並提供協助。搭配 Cursor 進行 Codebase 的 RAG，將能通過分析整段程式以解決問題，並提供開發提示，進而提升開發效率。
-**Claude 推薦的模型**為`claude-3-5-sonnet-20240620`。
+**Claude 推薦的模型**為`claude-3-5-sonnet-20240620`, `claude-3-5-sonnet-20241022`。
 
 ### **Google**
 **應用場域**：Gemini 的模型能力較為通用，其最大的特點為以較低的價格提供優質的服務。其應用場域包含**翻譯網頁內容、大量 PDF（如論文、專利）**。
-**Gemini 推薦的模型** 為 `gemini-1.5-flash-latest`。
+**Gemini 推薦的模型** 為 `gemini-1.5-flash-latest`, `gemini-1.5-flash-002`。
