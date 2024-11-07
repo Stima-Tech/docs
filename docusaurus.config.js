@@ -160,10 +160,10 @@ const config = {
                 label: 'Stima Research 研究報告',
                 href: 'https://blog.stima.tech',
               },
-              {
-                label: 'Stima Tech 伺服器狀態',
-                href: 'https://stats.stima.tech/status/stima',
-              },
+              // {
+              //   label: 'Stima Tech 伺服器狀態',
+              //   href: 'https://stats.stima.tech/status/stima',
+              // },
               {
                 label: 'Cursor IDE 歷史版本安裝檔',
                 href: 'https://share.stima.tech/share/5aAdVfAo',
