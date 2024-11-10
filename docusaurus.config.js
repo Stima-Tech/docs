@@ -106,13 +106,19 @@ const config = {
             type: 'doc',
             docId: 'stimachat',
             position: 'left',
-            label: 'StimaChat 聊天對話系統',
+            label: 'StimaChat 對話系統',
           },
           {
             type: 'doc',
             docId: 'opensource',
             position: 'left',
             label: '開源模型',
+          },
+          {
+            type: 'doc',
+            docId: 'cursor',
+            position: 'left',
+            label: 'Cursor IDE 優惠訂閱方案',
           },
           {
             href: 'https://api.stima.tech',
