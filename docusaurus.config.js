@@ -168,7 +168,7 @@ const config = {
               },
               {
                 label: 'Stima Playground',
-                href: 'https://playground.stima.tech',
+                href: 'https://beta.playground.stima.tech',
               },
               {
                 label: 'Stima Tech 伺服器狀態',
@@ -176,7 +176,7 @@ const config = {
               },
               {
                 label: 'Cursor IDE 歷史版本安裝檔',
-                href: 'https://share.stima.tech/share/5aAdVfAo',
+                href: 'https://share.stima.tech/share/68cSU4FR',
               },
             ],
           },
