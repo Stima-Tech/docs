@@ -172,7 +172,7 @@ const config = {
               },
               {
                 label: 'Stima Tech 伺服器狀態',
-                href: 'https://stats.stima.tech',
+                href: 'https://status.stima.tech',
               },
               {
                 label: 'Cursor IDE 歷史版本安裝檔',
