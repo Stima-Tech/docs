@@ -147,27 +147,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: '使用指南',
-          //   items: [
-          //     {
-          //       label: '使用場景',
-          //       to: '/docs/intro',
-          //     },
-          //     {
-          //       label: '安裝及應用',
-          //       to: '/docs/intro',
-          //     },
-          //     {
-          //       label: 'StimaChat 對話系統',
-          //       to: '/docs/intro',
-          //     },
-          //     {
-          //       label: '開源模型',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
           {
             title: '服務',
             items: [
@@ -200,10 +179,6 @@ const config = {
           {
             title: '聯繫我們',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'Email',
                 href: 'mailto:support@stima.tech',
@@ -227,7 +202,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Stima Tech All Rights Reserved.`,
+        copyright: `© 2024 Stima Tech All Rights Reserved.`,
       },
       prism: {
         theme: prismThemes.github,
