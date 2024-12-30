@@ -1,0 +1,58 @@
+{
+  "link.title.服務": {
+    "message": "服務",
+    "description": "The title of the footer links column with title=服務 in the footer"
+  },
+  "link.title.聯繫我們": {
+    "message": "聯繫我們",
+    "description": "The title of the footer links column with title=聯繫我們 in the footer"
+  },
+  "link.item.label.Stima API 官網": {
+    "message": "Stima API 官網",
+    "description": "The label of footer link with label=Stima API 官網 linking to https://api.stima.tech"
+  },
+  "link.item.label.StimaChat 對話系統": {
+    "message": "StimaChat 對話系統",
+    "description": "The label of footer link with label=StimaChat 對話系統 linking to https://chat.stima.tech"
+  },
+  "link.item.label.Stima Research 研究報告": {
+    "message": "Stima Research 研究報告",
+    "description": "The label of footer link with label=Stima Research 研究報告 linking to https://blog.stima.tech"
+  },
+  "link.item.label.Stima Playground": {
+    "message": "Stima Playground",
+    "description": "The label of footer link with label=Stima Playground linking to https://beta.playground.stima.tech"
+  },
+  "link.item.label.Stima Tech 伺服器狀態": {
+    "message": "Stima Tech 伺服器狀態",
+    "description": "The label of footer link with label=Stima Tech 伺服器狀態 linking to https://status.stima.tech"
+  },
+  "link.item.label.Cursor IDE 歷史版本安裝檔": {
+    "message": "Cursor IDE 歷史版本安裝檔",
+    "description": "The label of footer link with label=Cursor IDE 歷史版本安裝檔 linking to https://share.stima.tech/share/68cSU4FR"
+  },
+  "link.item.label.Email": {
+    "message": "Email",
+    "description": "The label of footer link with label=Email linking to mailto:support@stima.tech"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook",
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/stimatechnologies/"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/stimatech"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/company/104405674/"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/stima-tech"
+  },
+  "copyright": {
+    "message": "© 2024 Stima Tech All Rights Reserved.",
+    "description": "The footer copyright"
+  }
+}

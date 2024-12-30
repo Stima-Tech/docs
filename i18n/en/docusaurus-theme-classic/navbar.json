@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Stima API 使用指南",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.所有文件": {
+    "message": "所有文件",
+    "description": "Navbar item with label 所有文件"
+  },
+  "item.label.使用場景": {
+    "message": "使用場景",
+    "description": "Navbar item with label 使用場景"
+  },
+  "item.label.安裝及應用": {
+    "message": "安裝及應用",
+    "description": "Navbar item with label 安裝及應用"
+  },
+  "item.label.StimaChat 對話系統": {
+    "message": "StimaChat 對話系統",
+    "description": "Navbar item with label StimaChat 對話系統"
+  },
+  "item.label.開源模型": {
+    "message": "開源模型",
+    "description": "Navbar item with label 開源模型"
+  },
+  "item.label.Cursor IDE 優惠訂閱方案": {
+    "message": "Cursor IDE 優惠訂閱方案",
+    "description": "Navbar item with label Cursor IDE 優惠訂閱方案"
+  },
+  "item.label.Stima API 官網": {
+    "message": "Stima API 官網",
+    "description": "Navbar item with label Stima API 官網"
+  }
+}

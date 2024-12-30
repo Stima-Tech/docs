@@ -1,44 +1,30 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
+import React from 'react';
+import {Redirect} from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            快速了解 ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      // tite={`Hello from ${siteConfig.title}`}
-      tite={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+  const {i18n} = useDocusaurusContext();
+  
+  // 在服務器端渲染時使用默認語言
+  if (!ExecutionEnvironment.canUseDOM) {
+    return <Redirect to="/intro" />;
+  }
+
+  // 在客戶端檢測瀏覽器語言
+  const browserLang = navigator.language || navigator.userLanguage;
+  const isZhBrowser = browserLang.toLowerCase().startsWith('zh');
+  
+  // 如果當前語言與瀏覽器語言不匹配，進行重定向
+  const currentLocale = i18n.currentLocale;
+  const shouldBeZh = isZhBrowser;
+  
+  if (shouldBeZh && currentLocale !== 'zh-Hant') {
+    return <Redirect to="/intro" />;
+  } else if (!shouldBeZh && currentLocale !== 'en') {
+    return <Redirect to="/en/intro" />;
+  }
+  
+  // 如果已經在正確的語言版本，直接重定向到對應的首頁
+  return <Redirect to={`${currentLocale === 'zh-Hant' ? '' : '/en'}/intro`} />;
 }

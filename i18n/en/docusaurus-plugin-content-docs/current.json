@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.安裝及應用": {
+    "message": "安裝及應用",
+    "description": "The label for category 安裝及應用 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.安裝及應用.link.generated-index.description": {
+    "message": "Chatbox AI, Cursor IDE, 沉浸式翻譯, Continue Dev, Cline, LangChain, LlamaIndex",
+    "description": "The generated-index page description for category 安裝及應用 in sidebar tutorialSidebar"
+  }
+}

@@ -31,7 +31,19 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hant',
-    locales: ['zh-Hant'],
+    locales: ['zh-Hant', 'en'],
+    localeConfigs: {
+      'zh-Hant': {
+        label: '繁體中文',
+        direction: 'ltr',
+        htmlLang: 'zh-TW',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en',
+      },
+    },
   },
 
   presets: [
@@ -44,6 +56,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '',
         },
         blog: {
           showReadingTime: true,
@@ -123,6 +136,10 @@ const config = {
           {
             href: 'https://api.stima.tech',
             label: 'Stima API 官網',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
