@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Use Cases
+# Models Intro
 
 Stima API can be applied in various scenarios:
 

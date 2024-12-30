@@ -1,0 +1,26 @@
+{
+  "title.stima": {
+    "message": "Stima API 使用指南"
+  },
+  "nav.docs": {
+    "message": "所有文件"
+  },
+  "nav.usage": {
+    "message": "使用場景"
+  },
+  "nav.installation": {
+    "message": "安裝及應用"
+  },
+  "nav.stimachat": {
+    "message": "StimaChat 對話系統"
+  },
+  "nav.opensource": {
+    "message": "開源模型"
+  },
+  "nav.cursor": {
+    "message": "Cursor IDE 優惠訂閱方案"
+  },
+  "nav.website": {
+    "message": "Stima API 官網"
+  }
+} 

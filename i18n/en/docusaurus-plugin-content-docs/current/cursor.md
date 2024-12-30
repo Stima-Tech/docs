@@ -8,18 +8,18 @@ We offer subscription plans with the same specifications as the official ones bu
 
 ### Basic Plan
 - **500 Fast Responses per Month**
-  - Our Price: **NT$ 580/month** (pre-tax)
-  - Official Price: US$ 20/month (approx. NT$ 640/month)
-  - **Your Savings: approx. NT$ 60/month**
+  - Our Price: **US$ 18/month** (excl. tax)
+  - Official Price: US$ 20/month
+  - **Your Savings: US$ 2/month**
   - Includes:
     - 500 AI Fast Responses
     - Unlimited Slow Responses
     
 ### Professional Plan
 - **5000 Fast Responses per Month**
-  - Our Price: **NT$ 5120/month** (pre-tax)
-  - Official Price: US$ 200/month (approx. NT$ 6400/month)
-  - **Your Savings: approx. NT$ 1280/month**
+  - Our Price: **US$ 160/month** (excl. tax)
+  - Official Price: US$ 200/month
+  - **Your Savings: US$ 40/month**
   - Includes:
     - 5000 AI Fast Responses
     - Unlimited Slow Responses
@@ -27,9 +27,9 @@ We offer subscription plans with the same specifications as the official ones bu
 > Note: All plans include the complete official Cursor IDE features, with differences only in the number of AI Fast Responses
 
 ## Pricing Details
-The above prices are pre-tax. If you need an official invoice, please contact our customer service, and we will provide you with tax-inclusive quotations.
+The above prices are tax excluded. If you need an official invoice, please contact our customer service, and we will provide you with tax-inclusive prices.
 
 ## How to Subscribe
-Please visit our [Order Page](https://payment.stima.tech) to make a purchase. After payment, [contact us](mailto:support@stima.tech) to receive your login credentials.
+Please visit our [**Payment Page**](https://payment.stima.tech) to make a purchase. After payment, [**Contact Us**](mailto:support@stima.tech) to receive your login credentials.
 
-For more details about our plans, please feel free to **Contact Us** through the links at the bottom of this page, and our customer service team will be happy to assist you. 
+For more details about our plans, please feel free to [**Contact Us**](mailto:support@stima.tech) through the links at the bottom of this page, and our customer service team will be happy to assist you. 
