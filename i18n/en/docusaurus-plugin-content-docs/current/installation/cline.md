@@ -1,15 +1,20 @@
 # Cline (prev. Claude Dev)
+
 ### Installing Cline
-- Please install the `Cline` package from VSCode extensions: [**Cline (prev. Claude Dev)**](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)
+
+- Install the `Cline` extension from the VSCode marketplace: [**Cline (prev. Claude Dev)**](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)
 
 ### Using Stima API
-Click the settings button in the top right corner of the Cline extension and select `Settings`
-- Select `OpenAI Compatible` in the API Provider field
-- Enter `https://api.stima.tech/v1` in the Base URL field
-- Enter your API Key in the API Key field
+
+1. Open the Cline extension settings by clicking the gear icon in the top-right corner and selecting `Settings`.
+2. Set the **API Provider** field to `OpenAI Compatible`.
+3. Enter `https://api.stima.tech/v1` in the **Base URL** field.
+4. Input your **API Key** in the **API Key** field.
+
 ---
-*As shown below (using `Anthropic Claude 3.5 Sonnet 20240620` as an example)*
+
+*Example configuration (using `Anthropic Claude 3.5 Sonnet 20240620`):*
 
 ![image](https://raw.githubusercontent.com/Stima-Tech/documentation/refs/heads/main/static/img/cline.png)
 
-**Once completed, you can start using it!** 
+**Once configured, you are ready to start using the API!**

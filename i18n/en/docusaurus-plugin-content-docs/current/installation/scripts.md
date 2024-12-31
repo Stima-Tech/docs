@@ -2,7 +2,7 @@
 
 ### Python
 
-Stima API provides **OpenAI Compatible APIs**, so you can use the `openai` package in `Python` and modify the `model` variable to call all supported models.
+Stima API provides **OpenAI Compatible APIs**, so you can use the `OpenAI` package in `Python` and modify the `model` variable to call all supported models.
 
 ```python
 key = 'sk-xxxxxxxxxxxxxxxxxxxxxxxx' # Please replace with your API Key
@@ -34,11 +34,11 @@ curl https://api.stima.tech/v1/chat/completions \
     -H "Content-Type: application/json" \
     -H "Authorization: Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxx" \
     -d '{
-        "model": "o1-mini",
+        "model": "gpt-4o-mini",
         "messages": [
             {
                 "role": "system",
-                "content": "You are a test assistant."
+                "content": "Hello World!"
             }
         ]
     }'

@@ -1,35 +1,34 @@
 # StimaChat Conversation System
 
-**[StimaChat](https://chat.stima.tech)** is an advanced conversation system developed by Stima Tech, featuring a **bi-directional multi-turn conversation** mode and supporting communication with **90+ large language models**.
+**[StimaChat](https://chat.stima.tech)** is an advanced conversation system developed by Stima Tech, featuring a **bidirectional multi-turn dialogue** mode and supporting interactions with **90+ large language models**.
 
 ## Features
 
-- **Bidirectional Multi-turn Conversation**: StimaChat enables users to engage in bi-directional multi-turn conversations, not only answering questions but also actively asking them.
-- **Multi-language Support**: StimaChat supports communication in multiple languages, including Chinese, English, Japanese, Korean, and more.
-- **Advanced Conversation Technology**: StimaChat employs advanced conversation technologies, including **semantic understanding**, **sentiment analysis**, **intent recognition**, and more, to better understand users' intentions and emotions.
+- **Bidirectional Multi-Turn Dialogue**: StimaChat allows users to engage in bidirectional multi-turn conversations, not only answering questions but also proactively asking them.
+- **Multilingual Support**: StimaChat supports communication in multiple languages, including Chinese, English, Japanese, Korean, and more.
+- **Advanced conversation Technology**: StimaChat leverages cutting-edge conversation technologies, including **semantic understanding**, **sentiment analysis**, and **intent recognition**, to better understand user intent and emotions.
 
 ## How to Use
 
-### Opening the Conversation Interface
+### Access the Conversation Interface
 
-After logging in and creating an API Key, you'll find a blue [StimaChat Service] button next to each Key. Click this button to start chatting using that API Key.
+Once you log in and create an API Key, each key will have a blue **[StimaChat Service]** button next to it. Click this button to use the corresponding API Key for chatting.
 
-![](https://hackmd.io/_uploads/r1do5s_i0.png)
+![](https://hackmd.io/_uploads/ByEeuCxU1l.png)
 
-Once clicked, the system will automatically apply the API Key and API endpoint.
+After entering, the system will automatically apply the API Key and endpoint.
 
-![](https://hackmd.io/_uploads/B12gojOsR.png)
+![](https://hackmd.io/_uploads/rJIxdAl8Jx.png)
 
-### Starting a Chat 
+### Start Chatting
 
-Enter the interface and click [New Conversation] at the bottom.
+Once in the interface, click the **[New Chat]** button at the bottom.
 
-![](https://hackmd.io/_uploads/SJWFos_sR.png)   
+![](https://hackmd.io/_uploads/r1Kxu0lI1e.png)
 
-Select your desired model from the robot icon below.
+Then, select the AI model by clicking on the robot icon at the bottom.
 
-![](https://hackmd.io/_uploads/HkLpjsOsR.png)
+![](https://hackmd.io/_uploads/SkoluRg8kx.png)
 
-![](https://hackmd.io/_uploads/HJ6vgIFs0.png)
 
-You can now start using the system. 
+You can now begin using the system.

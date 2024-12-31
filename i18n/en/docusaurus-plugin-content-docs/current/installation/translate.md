@@ -1,6 +1,6 @@
 # Immersive Translation
 
-This is a **webpage translation extension**. Unlike traditional **Google Translate** which directly overlays translations on the original text, requiring you to revert the translation to view the original text, Immersive Translation **inserts translations below the original text** for bilingual parallel reading. When translations are confusing, you can directly reference the original text. Additionally, Immersive Translation **supports current popular large language models** such as `GPT-4o`, `Gemini 1.5 Flash`, etc., significantly improving translation accuracy.
+This is a **bilingual translation extension**. Unlike traditional **Google Translate** which directly overlays translations on the original text, requiring you to revert the translation to view the original text, Immersive Translation **inserts translations below the original text** for bilingual parallel reading. When translations are confusing, you can directly reference the original text. Additionally, Immersive Translation **supports current popular large language models** such as `GPT-4o`, `Gemini 1.5 Flash`, etc., significantly improving translation accuracy.
 
 Besides webpage translation, Immersive Translation officially provides features like: **full PDF translation**, **real-time YouTube subtitle translation**, and **EPUB e-book translation**. Below, we'll detail how to install and use the models provided by **Stima API**.
 
@@ -8,6 +8,7 @@ Besides webpage translation, Immersive Translation officially provides features 
 
 First, search for "Immersive Translation" in the Google or Edge extension store. The Google [installation link](https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AD%AF-%E7%B6%B2%E9%A0%81%E7%BF%BB%E8%AD%AF%E6%93%B4%E5%85%85-pdf%E7%BF%BB%E8%AD%AF-%E5%85%8D%E8%B2%BB/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) is here, follow the standard extension installation steps.
 
+![](https://hackmd.io/_uploads/Sy__11WL1g.png)
 ![](https://hackmd.io/_uploads/ry8_lVdoA.png)
 
 ### Setting Up the Service Provider - Stima API

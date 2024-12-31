@@ -2,26 +2,43 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Quick Overview
 
-Welcome to the Stima API User Guide. This documentation will help you understand how to effectively use our API services and various features.
+### 1. Homepage - **[Stima API](https://api.stima.tech/)**
+Click **[Stima API](https://api.stima.tech/)** to visit the official website, where you can find the currently supported **applications**, the **[model support list](https://api.stima.tech/#pricing)**, and **more information**.
 
-## What is Stima API?
+### 2. Login
+Click on the "Login" button in the top-right corner to register and log in. Currently, **email** and **username** login methods are supported.
 
-Stima API provides a comprehensive suite of AI services, including:
+![image](https://hackmd.io/_uploads/HyyKH0lUkx.png)
 
-- Large Language Model API Services
-- StimaChat Dialogue System
-- Open Source Model Integration
-- And more...
+### 3. Keys
 
-## Getting Started
+After completing registration, your API Key information will be displayed here. **A default API Key** is provided by default. Click `Copy` to obtain your default API Key, which starts with `sk-*`. **Please keep it secure.**  
+If you want to create additional API Keys, you can click `Add API Key`.
 
-To start using Stima API, you'll need to:
+![image](https://hackmd.io/_uploads/SJFFHAgUJl.png)  
 
-1. Register an account
-2. Obtain your API key
-3. Choose the appropriate service plan
-4. Begin integration with your applications
+You can customize your API Key settings, including **quota allocation**, **model usage restrictions**, **IP access restrictions**, and **expiration date**. This allows you to allocate API Keys to different users with specific quotas and usage permissions.
 
-For detailed installation and usage instructions, please refer to our [Installation Guide](installation/chatbox.md). 
+![image](https://hackmd.io/_uploads/HkhFSCg8Je.png)
+![image](https://hackmd.io/_uploads/HkfoS0gIJx.png)  
+
+### 4. Credits
+
+After purchasing a plan on the [Stima API Purchase Page](https://payment.stima.tech/) and obtaining a top-up code, navigate to this section to add credits. Enter the top-up code and click "Top-Up" to complete the process.  
+You can revisit this section at any time to top up or **check your remaining credits**.
+
+![image](https://hackmd.io/_uploads/r1LsrRlIJx.png)
+
+### 5. Logs
+
+Through the **Logs** section, you can monitor the **usage history**, **token consumption**, and **credit usage** for each API Key.
+
+![image](https://hackmd.io/_uploads/rJ_irRl8Jg.png)  
+
+<!-- ### 6. Settings
+
+This section allows users with a **GitHub** account to bind their **GitHub account** for quick login in the future.
+
+![image](https://hackmd.io/_uploads/HJJC0RLjR.png) -->
