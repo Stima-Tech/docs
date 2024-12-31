@@ -12,24 +12,21 @@
 
 ### 開啟對話介面
 
-當您登入並創建好 API Key 之後，每個 Key 後面都會有一個藍色的【聊天介面】按鈕。點擊該按鈕，即可使用該 API Key 進行聊天。
+當您登入並創建好 API Key 之後，每個 Key 後面都會有一個藍色的【StimaChat 對話服務】按鈕。點擊該按鈕，即可使用該 API Key 進行聊天。
 
-![](https://hackmd.io/_uploads/r1do5s_i0.png)
+![](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_e9767aa3b6d73bdb180609d5363085e7.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735632083&Signature=7Z9FGHgyoQL3rGAFBg4%2BcsOfpgw%3D)
 
 點進去後系統會自動套用 API Key 與 API 端點。
 
-![](https://hackmd.io/_uploads/B12gojOsR.png)
+![](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_e090c98775137f9211d4f379dc023002.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735632101&Signature=EMDC%2F7pKPfMmyRJSuwhIDSMwc%2BI%3D)
 
 ### 開始聊天
 
 進入介面後點即下方的【開新對話】。
 
-![](https://hackmd.io/_uploads/SJWFos_sR.png)   
-
 並於下方機器人圖標中選擇欲使用模型。
 
-![](https://hackmd.io/_uploads/HkLpjsOsR.png)
+![](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_78546fa2e8880972b835fdc0daf4b70c.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735632111&Signature=NOjVf0Sro7NPysKOHRtcZJgxnxQ%3D)
 
-![](https://hackmd.io/_uploads/HJ6vgIFs0.png)
 
 即可開始使用。

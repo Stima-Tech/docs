@@ -6,7 +6,8 @@ Chatbox AI 是一個圖形化的聊天介面，其優點為 **使用API Key進�
 
 前往 **[Chatbox AI官網](https://chatboxai.app/zh-TW)**，根據電腦系統選擇下載版本，Chatbox AI 亦提供手機版本 (Android, iOS)。
 
-![image](https://hackmd.io/_uploads/HkP8MSc9A.png)
+![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_fc35e576fa862e7b70df41e568d0f047.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631827&Signature=7FT%2FdMYnY2oRxNOEm8yXmCE%2BZzY%3D)
+![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_4bd93ed91875609850f976a0b028a966.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631854&Signature=J%2FT1%2BgpUzuMDRWUA%2BlEW0Hl7BkM%3D)
 
 
 ### 設定 API Key
