@@ -8,13 +8,13 @@ Cursor IDE is an enhanced AI-powered code editor. As a fork of Visual Studio Cod
 
 Visit the **[Cursor IDE Official Website](https://www.cursor.com/)** and click the download button in the top-right corner to get Cursor IDE.
 
-![image](https://hackmd.io/_uploads/SJH2WxDoC.jpg)
+![image](../static/img/cursor_1.png)
 
 ### Installation
 
 Double-click the installer to launch the setup, where the following screen will appear:
 
-![image](https://hackmd.io/_uploads/SkH32oP50.png)
+![image](../static/img/cursor_2.png)
 
 - **Language for AI**: Select the language you want AI responses to be translated into. For Traditional Chinese, enter `Traditional Chinese`.
 - **Codebase-wide**: Enable embedding for your entire codebase and integrate RAG (Retrieval-Augmented Generation). This feature allows vector search within your codebase, enhancing AI-assisted code editing or generation.
@@ -24,11 +24,11 @@ Double-click the installer to launch the setup, where the following screen will 
 
 If you previously used VSCode and installed extensions (e.g., Jupyter Notebook, Prettier), these can be imported into Cursor IDE without reinstalling. Simply click the **[Use Extensions]** button to complete the import.
 
-![image](https://hackmd.io/_uploads/HJOOAswq0.png)
+![image](../static/img/cursor_3.png)
 
 If you had the `Continue` development assistant installed in VSCode, the system will ask whether to continue using `Continue` or switch to Cursor's AI extension. For a better experience, it is recommended to use Cursor's AI extension.
 
-![image](https://hackmd.io/_uploads/rJHfJhDcC.png)
+![image](../static/img/cursor_4.png)
 
 ## Using Stima API Models
 
@@ -38,15 +38,15 @@ You can integrate **Stima API** into **Cursor** to use its models.
 
 1. Navigate to the **Models** section.
 
-![image](https://hackmd.io/_uploads/BkDbZNqcC.png)
+![image](../static/img/cursor_5.png)
 
 In the **OpenAI API Key** field, enter your API Key. Enable the **Override OpenAI Base URL** option and enter the following API URL: `https://api.stima.tech/v1`. Finally, click the **Verify** button in the top-right corner. If no error messages appear, the setup is successful.
 
-![image](https://hackmd.io/_uploads/SJVqOgviA.png)
+![image](../static/img/cursor_6.png)
 
 2. When configuring the model, select the appropriate model name.
 
-![image](https://hackmd.io/_uploads/r16AuxPoA.png)
+![image](../static/img/cursor_7.png)
 
 ### Choosing a Model
 
@@ -58,6 +58,6 @@ Next, refer to the [Model Support List](https://api.stima.tech/) and click the *
 
 **Important Note**: When using Stima API's Claude models, ensure to replace the default Claude model name with the provided alias. For example, use `cow-3-5-sonnet-20240620` instead of `claude-3-5-sonnet-20240620`.
 
-![image](https://hackmd.io/_uploads/H1g9N9Po0.png)
+![image](../static/img/cursor_8.png)
 
 Once added, the new model will appear in the chat interface, indicating it is ready for use.

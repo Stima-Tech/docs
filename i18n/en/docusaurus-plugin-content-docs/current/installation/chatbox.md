@@ -6,8 +6,8 @@ Chatbox AI is a graphical chat interface designed for **interacting with APIs vi
 
 Visit the **[Chatbox AI Official Website](https://chatboxai.app/zh-TW)** to download the appropriate version for your computer system. Chatbox AI also offers mobile versions for Android and iOS.
 
-![image](https://hackmd.io/_uploads/Hkkq9AxUye.png)
-![image](https://hackmd.io/_uploads/SJb59Rl81g.png)
+![image](../static/img/chatbox_0.png)
+![image](../static/img/chatbox_1.png)
 
 ### Setting Up API Key
 
@@ -15,7 +15,7 @@ Click the settings icon in the bottom-left corner to access the **Model Configur
 
 Enter your API Key in the **API Key** field and set **API Base URL** to `https://api.stima.tech`. Select the model you wish to use. Adjust additional parameters like `temperature` and `Top P` if needed, then click Save to start using the model.
 
-![image](https://hackmd.io/_uploads/B1Nq9AgL1e.png)
+![image](../static/img/chatbox_2.png)
 
 
 For example, to use **Claude 3.5 Sonnet**, input the following settings:
@@ -27,8 +27,8 @@ For example, to use **Claude 3.5 Sonnet**, input the following settings:
 - **API Key**: Your API Key
 - **Model**: `claude-3-5-sonnet-20240620`
 
-![image](https://hackmd.io/_uploads/BJP5qAx8Jx.png)
+![image](../static/img/chatbox_3.png)
 
 Click Save, then select the model you just configured to begin using it.
 
-![image](https://hackmd.io/_uploads/rkY5cCeIJe.png)
+![image](../static/img/chatbox_4.png)

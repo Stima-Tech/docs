@@ -12,17 +12,17 @@ On the other hand, Continue Dev shines in quick queries and debugging tasks. As 
 
 This guide focuses on the installation process for VSCode. Begin by navigating to the **Extensions** menu on the left-hand panel and searching for **Continue**.
 
-![](https://hackmd.io/_uploads/HJ_E-najC.jpg)
+![](../static/img/continue_1.png)
 
 After installation, the following interface will appear. However, the chat panel on the left will not function until the `config.json` file is configured.
 
-![](https://hackmd.io/_uploads/SyRkfh6j0.jpg)
+![](../static/img/continue_2.png)
 
 ### Adding `config.json`
 
 Click the gear icon in the bottom-left corner to access the `config.json` file.
 
-![](https://hackmd.io/_uploads/HkxMqpYM3A.png)
+![](../static/img/continue_3.png)
 
 Copy the JSON configuration below and paste it into the `config.json` file. Replace the **API Key** with your **API Key**.
 
@@ -129,10 +129,10 @@ Copy the JSON configuration below and paste it into the `config.json` file. Repl
 
 - 選取一段程式碼後【Ctrl + L】 / [Cmd + L]
 
-![](https://hackmd.io/_uploads/r1zYS2TiR.png)
+![](../static/img/continue_4.png)
 
 **Rewrite Code (Edit Mode)**
 
 - 選取一段程式碼後【Ctrl + I】 / [Cmd + I]
 
-![](https://hackmd.io/_uploads/HJozI3aoR.png)
+![](../static/img/continue_5.png)

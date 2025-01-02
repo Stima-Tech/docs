@@ -14,21 +14,21 @@
 
 Once you log in and create an API Key, each key will have a blue **[StimaChat Service]** button next to it. Click this button to use the corresponding API Key for chatting.
 
-![](https://hackmd.io/_uploads/ByEeuCxU1l.png)
+![](../static/img/stimachat_1.png)
 
 After entering, the system will automatically apply the API Key and endpoint.
 
-![](https://hackmd.io/_uploads/rJIxdAl8Jx.png)
+![](../static/img/stimachat_2.png)
 
 ### Start Chatting
 
 Once in the interface, click the **[New Chat]** button at the bottom.
 
-![](https://hackmd.io/_uploads/r1Kxu0lI1e.png)
+![](../static/img/stimachat_3.png)
 
 Then, select the AI model by clicking on the robot icon at the bottom.
 
-![](https://hackmd.io/_uploads/SkoluRg8kx.png)
+![](../static/img/stimachat_4.png)
 
 
 You can now begin using the system.
