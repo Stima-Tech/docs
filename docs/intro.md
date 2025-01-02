@@ -18,13 +18,13 @@ sidebar_position: 1
 
 完成註冊後，此處將會顯示您的 API Key 資訊，**預設會有一組 default**，點擊【複製】即可獲得您的預設 API Key，其為 *sk-* 開頭之字串，**請妥善保管**。
 倘若您想要新增 API Key，可以點擊【新增 API Key】。
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_42c3948412a9edf0681d1de589c34136.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631590&Signature=Dy7EbfeHeWDm9wLMhKmtOhmu73E%3D)
+![image](static/img/keys_1.png)
 
 
 自行建立 API Key 包含自訂 **額度分配**、**允許使用之模型範圍**、**限制IP存取** 與 **有效期限**，允許您將 API Key 分配給不同的使用者，並設定不同的額度與模型使用範圍。
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_0a27a32b46e98ef704f48520fb996887.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631610&Signature=FdqGnufiL188enXW61YqpsCmG3I%3D)
-![image](https://hackmd.io/_uploads/rkneyXbLkg.pnhttps://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_69cc34a6734c030eb4be17901dcb329c.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631625&Signature=q5ntkyCO9HdVh7Q7DR67wXOIduc%3Dg)
+![image](static/img/keys_2.png)
+![image](static/img/keys_3.png)
 
 
 ### 4. 加值區
@@ -32,14 +32,14 @@ sidebar_position: 1
 當於[Stima API 購買頁面](https://payment.stima.tech/)購買方案並取得加值碼後，即來到此區進行自助加值。輸入加值碼後點擊「加值」即可完成額度加值。
 後續在使用過程中，您可以隨時回到此處進行加值以及 **查詢剩餘額度**。
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_e0d81b1327cefcc41df91a943c38394f.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631638&Signature=xm8KIFDTfu6KS1LXub%2B7dDKe8RQ%3D)
+![image](static/img/credits.png)
 
 
 ### 5. 日誌區
 
 透過 **日誌** ，您能監控每個API Key 之 **使用紀錄**、**Token 消耗量** 及 **消耗額度**。
 
-![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_26ab67a884e09a16981794946096a442.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1735631649&Signature=Dj%2F4mk4k5YNRqgPWCmJl8Ljjk2A%3D)
+![image](static/img/log.png)
 
 <!-- ### 6. 設定
 
