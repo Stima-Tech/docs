@@ -202,7 +202,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© 2024 Stima Tech All Rights Reserved.`,
+        copyright: `© 2025 Stima Tech All Rights Reserved.`,
       },
       prism: {
         theme: prismThemes.github,
