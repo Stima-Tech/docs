@@ -8,7 +8,7 @@ Cursor IDE is an enhanced AI-powered code editor. As a fork of Visual Studio Cod
 
 Visit the **[Cursor IDE Official Website](https://www.cursor.com/)** and click the download button in the top-right corner to get Cursor IDE.
 
-![image](../static/img/cursor_1.png)
+![image](../static/img/cursor_1.jpg)
 
 ### Installation
 

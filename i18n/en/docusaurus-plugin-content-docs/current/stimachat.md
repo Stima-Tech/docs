@@ -14,21 +14,21 @@
 
 Once you log in and create an API Key, each key will have a blue **[StimaChat Service]** button next to it. Click this button to use the corresponding API Key for chatting.
 
-![](../static/img/stimachat_1.png)
+![](./static/img/stimachat_1.png)
 
 After entering, the system will automatically apply the API Key and endpoint.
 
-![](../static/img/stimachat_2.png)
+![](./static/img/stimachat_2.png)
 
 ### Start Chatting
 
 Once in the interface, click the **[New Chat]** button at the bottom.
 
-![](../static/img/stimachat_3.png)
+![](./static/img/stimachat_3.png)
 
 Then, select the AI model by clicking on the robot icon at the bottom.
 
-![](../static/img/stimachat_4.png)
+![](./static/img/stimachat_4.png)
 
 
 You can now begin using the system.

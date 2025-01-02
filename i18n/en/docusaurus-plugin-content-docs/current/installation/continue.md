@@ -12,11 +12,11 @@ On the other hand, Continue Dev shines in quick queries and debugging tasks. As 
 
 This guide focuses on the installation process for VSCode. Begin by navigating to the **Extensions** menu on the left-hand panel and searching for **Continue**.
 
-![](../static/img/continue_1.png)
+![](../static/img/continue_1.jpg)
 
 After installation, the following interface will appear. However, the chat panel on the left will not function until the `config.json` file is configured.
 
-![](../static/img/continue_2.png)
+![](../static/img/continue_2.jpg)
 
 ### Adding `config.json`
 
