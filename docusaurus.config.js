@@ -185,7 +185,7 @@ const config = {
               },
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/stimatechnologies/',
+                href: 'https://www.facebook.com/stimaai/',
               },
               {
                 label: 'Instagram',
@@ -193,7 +193,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/104405674/',
+                href: 'https://www.linkedin.com/company/stima-ai/',
               },
               {
                 label: 'GitHub',
@@ -202,7 +202,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© 2024 - 2025 Stima AI, Inc. All rights reserved.`,
+        copyright: `© 2024 - 2025 Stima AI Inc. All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
