@@ -8,18 +8,18 @@ We offer subscription plans with the same specifications as the official ones bu
 
 ### Basic Plan
 - **500 Fast Responses per Month**
-  - Our Price: **US$ 18/month** (excl. tax)
+  - Our Price: **US$ 17.5/month** (excl. tax)
   - Official Price: US$ 20/month
-  - **Your Savings: US$ 2/month**
+  - **Your Savings: US$ 2.5/month**
   - Includes:
     - 500 AI Fast Responses
     - Unlimited Slow Responses
     
 ### Professional Plan
 - **5000 Fast Responses per Month**
-  - Our Price: **US$ 160/month** (excl. tax)
+  - Our Price: **US$ 155/month** (excl. tax)
   - Official Price: US$ 200/month
-  - **Your Savings: US$ 40/month**
+  - **Your Savings: US$ 45/month**
   - Includes:
     - 5000 AI Fast Responses
     - Unlimited Slow Responses
