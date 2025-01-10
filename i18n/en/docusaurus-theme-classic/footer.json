@@ -21,7 +21,7 @@
   },
   "link.item.label.Stima Playground": {
     "message": "Playground",
-    "description": "The label of footer link with label=Stima Playground linking to https://beta.playground.stima.tech"
+    "description": "The label of footer link with label=Stima Playground linking to https://playground.stima.tech"
   },
   "link.item.label.Stima Tech 伺服器狀態": {
     "message": "Server Status",

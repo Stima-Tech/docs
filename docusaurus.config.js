@@ -163,8 +163,8 @@ const config = {
                 href: 'https://blog.stima.tech',
               },
               {
-                label: 'Stima Playground',
-                href: 'https://beta.playground.stima.tech',
+                label: 'Playground',
+                href: 'https://playground.stima.tech',
               },
               {
                 label: 'Stima Tech 伺服器狀態',
