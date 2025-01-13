@@ -83,6 +83,26 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        docsRouteBasePath: "/",
+        indexDocs: true,
+        // indexBlog: true,
+        indexPages: true,
+        docsDir: "docs",
+        // blogDir: "blog",
+        removeDefaultStopWordFilter: true,
+        removeDefaultStemmer: true,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -97,12 +117,12 @@ const config = {
           href: 'https://docs.stima.tech',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '所有文件',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: '所有文件',
+          // },
           {
             type: 'doc',
             docId: 'usage',
@@ -207,23 +227,6 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
-      algolia: {
-        // Algolia 提供的應用 ID
-        appId: 'G9QDGFQ1C8',
-
-        // 公開 API 密鑰：提交它沒有風險
-        apiKey: '1ce9772ae74f9f063496f78f57b24dfb',
-
-        indexName: 'docs_stima_tech_g9qdgfq1c8_pages',
-
-        // 可選：見下文
-        contextualSearch: true,
-
-        // 可選：搜索頁面的路徑，默認啟用（可以用 `false` 禁用）
-        searchPagePath: 'search',
-
-        // ... 其他可選配置
       },
     }),
 };
