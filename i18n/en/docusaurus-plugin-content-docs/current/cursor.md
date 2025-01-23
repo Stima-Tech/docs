@@ -16,7 +16,7 @@ We offer subscription plans with the same specifications as the official ones bu
     - Unlimited Slow Responses -->
     
 ### Professional Plan
-- **5000 Fast Responses per Month**
+- **5000 Fast Requests per Month**
   - Our Price: **US$ 36/month** (excl. tax)
   - Official Price: US$ 200/month
   - **Your Savings: US$ 164/month**
