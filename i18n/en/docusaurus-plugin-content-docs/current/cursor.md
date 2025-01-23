@@ -4,16 +4,16 @@ Cursor IDE is an enhanced AI-driven code editor. It's a fork of Visual Studio Co
 
 We offer subscription plans with the same specifications as the official ones but at more favorable prices, allowing you to enjoy the advanced AI-driven code editor at **lower costs through legitimate subscription methods**.
 
-## Subscription Plan Comparison
+## Subscription Plan
 
-### Basic Plan
+<!-- ### Basic Plan
 - **500 Fast Responses per Month**
   - Our Price: **US$ 18/month** (excl. tax)
   - Official Price: US$ 20/month
   - **Your Savings: US$ 2/month**
   - Includes:
     - 500 AI Fast Responses
-    - Unlimited Slow Responses
+    - Unlimited Slow Responses -->
     
 ### Professional Plan
 - **5000 Fast Responses per Month**
