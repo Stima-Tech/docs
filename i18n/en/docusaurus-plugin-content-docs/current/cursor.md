@@ -1,3 +1,0 @@
-# Cursor IDE Subscription Plans
-
-Cursor IDE is an enhanced AI-driven code editor. It's a fork of Visual Studio Code that brings advanced AI capabilities to the familiar interface. **Cursor IDE** deeply integrates with your development workflow, going beyond simple code suggestions or handling repetitive tasks. This tool actually understands your project. It comprehends your coding style, knows your project structure, and can even learn your team's best practices. It's like having a **Junior Software Engineer** partner by your side, offering suggestions, catching errors, and even helping you refactor code—all in real-time.

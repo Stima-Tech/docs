@@ -46,10 +46,6 @@ const sidebars = {
       type: 'doc',
       id: 'opensource',
     },
-    {
-      type: 'doc',
-      id: 'cursor',
-    },
   ],
 };
 

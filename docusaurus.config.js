@@ -148,12 +148,6 @@ const config = {
             label: '開源模型',
           },
           {
-            type: 'doc',
-            docId: 'cursor',
-            position: 'left',
-            label: 'Cursor IDE 優惠訂閱方案',
-          },
-          {
             href: 'https://api.stima.tech',
             label: 'Stima API 官網',
             position: 'right',
