@@ -5,7 +5,7 @@
 Stima API provides **OpenAI Compatible APIs**, so you can use the `OpenAI` package in `Python` and modify the `model` variable to call all supported models.
 
 ```python
-key = 'sk-xxxxxxxxxxxxxxxxxxxxxxxx' # Please replace with your API Key
+key = '<STIMA_API_KEY>' # Please replace with your API Key
 from openai import OpenAI
 
 client = OpenAI(
@@ -14,7 +14,7 @@ client = OpenAI(
 )
 
 chat_completion = client.chat.completions.create(
-    model="gpt-3.5-turbo", # Modify the model variable to call different models
+    model="<MODEL_ALIAS>", # Modify the model variable to call different models
     messages=[
         {"role": "user", "content": "Hello world"}
     ]
@@ -27,14 +27,14 @@ print(chat_completion.choices[0].message.content)
 ### cURL
 
 To use `cURL` to call Stima API, you only need to modify the `api_key` and `model` variables to call all supported models.  
-Please replace `sk-xxxxxxxxxxxxxxxxxxxxxxxx` and `model` values with your **API Key** and **model alias**.
+Please replace `<STIMA_API_KEY>` and `model` values with your **API Key** and **model alias**.
 
 ```bash
 curl https://api.stima.tech/v1/chat/completions \
     -H "Content-Type: application/json" \
-    -H "Authorization: Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxx" \
+    -H "Authorization: Bearer <STIMA_API_KEY>" \
     -d '{
-        "model": "gpt-4o-mini",
+        "model": "<MODEL_ALIAS>",
         "messages": [
             {
                 "role": "system",
