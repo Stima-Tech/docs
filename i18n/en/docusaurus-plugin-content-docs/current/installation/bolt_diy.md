@@ -1,4 +1,4 @@
-# bolt.diy (Previously oTToDev)
+# bolt.diy (prev. oTToDev)
 
 bolt.diy is a solution that enables developers to easily integrate Stima API into their projects. By providing comprehensive API endpoints and compatibility support, developers can quickly incorporate large language model capabilities into various applications.
 
