@@ -37,6 +37,7 @@ const sidebars = {
         'installation/translate',
         'installation/continue',
         'installation/bolt_diy',
+        'installation/embedding',
       ],
     },
     {
