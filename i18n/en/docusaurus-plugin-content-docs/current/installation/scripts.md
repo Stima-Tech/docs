@@ -1,4 +1,4 @@
-# Python and cURL API Usage Examples
+# Call Stima API via OpenAI SDK
 
 ### Python
 
@@ -22,6 +22,65 @@ chat_completion = client.chat.completions.create(
 
 print(chat_completion.choices[0].message.content)
 
+```
+
+### JavaScript
+
+```javascript
+const apiKey = '<STIMA_API_KEY>';
+const apiUrl = 'https://api.stima.tech/v1/chat/completions';
+
+async function callOpenAI(prompt) {
+  const response = await fetch(apiUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${apiKey}`
+    },
+    body: JSON.stringify({
+      model: '<MODEL_ALIAS>',
+      messages: [{ role: 'user', content: prompt }],
+      max_tokens: 150,
+      temperature: 0.7
+    })
+  });
+
+  const data = await response.json();
+  return data.choices[0].message.content;
+}
+
+callOpenAI('Hello world').then(reply => console.log(reply));
+
+```
+
+### TypeScript
+
+```typescript
+import OpenAI from 'openai';
+
+const openai = new OpenAI({
+  apiKey: '<STIMA_API_KEY>', // Please ensure that the Stima API key is set in the environment variables
+  baseURL: 'https://api.stima.tech/v1', // Replace with Stima API endpoint
+});
+
+
+async function getChatCompletion(prompt: string): Promise<void> {
+  try {
+    const chatCompletion = await openai.chat.completions.create({
+      model: '<MODEL_ALIAS>', // Replace with the model you want to use
+      messages: [{ role: 'user', content: prompt }],
+      max_tokens: 150,
+      temperature: 0.7,
+    });
+
+    console.log(chatCompletion.choices[0].message.content);
+  } catch (error) {
+    console.error('Error fetching chat completion:', error);
+  }
+}
+
+// Example usage
+getChatCompletion('Hello world');
 ```
 
 ### cURL
