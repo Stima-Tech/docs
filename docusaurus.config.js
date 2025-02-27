@@ -23,7 +23,7 @@ const config = {
   organizationName: 'Stima-Tech', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -133,7 +133,7 @@ const config = {
             type: 'doc',
             docId: 'installation/chatbox',
             position: 'left',
-            label: '安裝及應用',
+            label: '功能',
           },
           {
             type: 'doc',
