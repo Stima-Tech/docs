@@ -54,6 +54,7 @@ const sidebars = {
         'installation/connection',
         'installation/scripts',
         'installation/embedding',
+        'installation/dalle',
       ],
     },
     {
