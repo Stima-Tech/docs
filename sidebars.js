@@ -53,6 +53,8 @@ const sidebars = {
         'installation/llamaindex',
         'installation/connection',
         'installation/scripts',
+        'installation/read_image',
+        'installation/streaming',
         'installation/embedding',
         'installation/dalle',
       ],
