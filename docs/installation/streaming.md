@@ -1,4 +1,4 @@
-# Streaming 流式輸出
+# Streaming 輸出
 
 ## 以 Python 為例
 
