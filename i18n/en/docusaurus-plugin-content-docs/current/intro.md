@@ -10,7 +10,7 @@ Click **[Stima API](https://api.stima.tech/)** to visit the official website, wh
 ### 2. Login
 Click on the "Login" button in the top-right corner to register and log in. Currently, **email** and **username** login methods are supported.
 
-![image](static/img/intro_0.png)
+![image](static/img/welcome.png)
 
 ### 3. Keys
 

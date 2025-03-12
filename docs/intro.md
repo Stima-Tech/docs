@@ -11,7 +11,7 @@ sidebar_position: 1
 ### 2. 登入 
 點擊右上角的【登入】即可進行註冊以進行後續登入，目前支援 **電子郵件**、**使用者帳號** 登入。
 
-![image](https://raw.githubusercontent.com/Stima-Tech/documentation/refs/heads/main/static/img/welcome.png)
+![image](static/img/welcome.png)
 
 
 ### 3. Keys 
