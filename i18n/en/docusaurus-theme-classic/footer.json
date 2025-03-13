@@ -16,20 +16,20 @@
     "description": "The label of footer link with label=StimaChat 對話系統 linking to https://chat.stima.tech"
   },
   "link.item.label.Stima Research 研究報告": {
-    "message": "Stima Research",
+    "message": "Research",
     "description": "The label of footer link with label=Stima Research 研究報告 linking to https://blog.stima.tech"
   },
   "link.item.label.Stima Playground": {
     "message": "Playground",
     "description": "The label of footer link with label=Stima Playground linking to https://playground.stima.tech"
   },
-  "link.item.label.Stima Tech 伺服器狀態": {
-    "message": "Server Status",
-    "description": "The label of footer link with label=Stima Tech 伺服器狀態 linking to https://status.stima.tech"
+  "link.item.label.法律裁判書檢索系統 (台灣)": {
+    "message": "Law Judgment Documents Retrieval System (Taiwan)",
+    "description": "The label of footer link with label=法律裁判書檢索系統 (台灣) linking to https://lawir.stima.tech"
   },
-  "link.item.label.Cursor IDE 歷史版本安裝檔": {
-    "message": "Cursor IDE Archives",
-    "description": "The label of footer link with label=Cursor IDE 歷史版本安裝檔 linking to https://share.stima.tech/share/68cSU4FR"
+  "link.item.label.服務狀態": {
+    "message": "Service Status",
+    "description": "The label of footer link with label=服務狀態 linking to https://status.stima.tech"
   },
   "link.item.label.Email": {
     "message": "Email",

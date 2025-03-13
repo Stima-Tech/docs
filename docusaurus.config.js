@@ -173,7 +173,7 @@ const config = {
                 href: 'https://chat.stima.tech',
               },
               {
-                label: 'Stima Research 研究報告',
+                label: 'Research',
                 href: 'https://blog.stima.tech',
               },
               {
@@ -181,13 +181,13 @@ const config = {
                 href: 'https://playground.stima.tech',
               },
               {
-                label: 'Stima Tech 伺服器狀態',
-                href: 'https://status.stima.tech',
+                label: '法律裁判書檢索系統 (台灣)',
+                href: 'https://lawir.stima.tech',
               },
               {
-                label: 'Cursor IDE 歷史版本安裝檔',
-                href: 'https://share.stima.tech/share/68cSU4FR',
-              },
+                label: '服務狀態',
+                href: 'https://status.stima.tech',
+              }
             ],
           },
           {
