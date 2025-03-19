@@ -25,7 +25,7 @@ print(data.decode("utf-8"))
 
 ## 參數說明
 
-- `model`: 要使用的模型，目前支援 `text-embedding-3-large`, `text-embedding-3-small`, `text-embedding-ada-002`
+- `model`: 要使用的模型，目前支援 **OpenAI** 的 `text-embedding-3-large`, `text-embedding-3-small`, `text-embedding-ada-002` 以及 **Jina AI** 的 `jina-embeddings-v3`, `jina-clip-v2`, `jina-colbert-v2`, `jina-embeddings-v2-base-code`, `jina-embeddings-v2-base-zh`, `jina-embeddings-v2-base-en`。
 - `input`: 要轉換的文字
 - `STIMA_API_KEY`: 您的 API 金鑰
 
