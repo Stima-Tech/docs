@@ -15,7 +15,7 @@ Roo Code is a solution that enables developers to easily integrate Stima API int
 
 ### API Endpoint
 
-- **[https://api.stima.tech](https://api.stima.tech)**
+- **[https://api.stima.tech/v1](https://api.stima.tech/v1)**
 
 ### API Key Setup
 
