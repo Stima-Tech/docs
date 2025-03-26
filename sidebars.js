@@ -49,6 +49,7 @@ const sidebars = {
         'installation/cursor',
         'installation/continue',
         'installation/bolt_diy',
+        'installation/roocode',
         'installation/langchain',
         'installation/llamaindex',
         'installation/connection',
