@@ -29,3 +29,23 @@ print(data.decode("utf-8"))
 - `input`: The text to convert
 - `STIMA_API_KEY`: Your API key
 
+## Jina AI Embedding Model Usage (Example in Python)
+
+```bash
+curl -X POST "https://api.stima.tech/v1/embeddings" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <STIMA_API_KEY>" \
+  -d '{
+    "model": "jina-embeddings-v3",
+    "input": ["你好，世界", "Hello, World"],
+    "task": "retrieval.passage"
+  }'
+
+```
+
+### Parameters
+
+- `model`: The model to use, currently supports `jina-embeddings-v3`, `jina-clip-v2`, `jina-colbert-v2`, `jina-embeddings-v2-base-code`, `jina-embeddings-v2-base-zh`, `jina-embeddings-v2-base-en`, `jina-embeddings-v2-base-de`, `jina-clip-v1`, `jina-embeddings-v2-base-es`, `jina-colbert-v1-en` from **Jina AI**.
+- `input`: The text to convert
+- `task`: The task to use, currently supports `retrieval.query`, `retrieval.passage`, `separation`, `classification`, `text-matching` and `none` from **Jina AI** with model `jina-embeddings-v3`.
+- `STIMA_API_KEY`: Your API key
