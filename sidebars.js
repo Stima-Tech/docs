@@ -57,6 +57,7 @@ const sidebars = {
         'installation/read_image',
         'installation/streaming',
         'installation/embedding',
+        'installation/image_gen',
         'installation/dalle',
       ],
     },
