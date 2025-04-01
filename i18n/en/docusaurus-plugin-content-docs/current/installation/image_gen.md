@@ -86,7 +86,7 @@ curl -X POST "https://api.stima.tech/v1/chat/completions" \
 
 ## Parameter Description
 
-- `model`: Currently supports `gpt-4o-image`, `gemini-2.0-flash-exp-image-generation` and `grok-3-image`.
+- `model`: Currently supports `gpt-4o-image`, `gemini-2.0-flash-exp-image` and `grok-3-image`.
 - `prompt`: Description of the image to be generated.
 - `STIMA_API_KEY`: Your API key.
 - Allowed Image Input: Convert to **base64** format. 
