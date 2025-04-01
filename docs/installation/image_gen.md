@@ -1,6 +1,6 @@
 # 使用圖片生成 API
 
-Stima API 提供 Image Generation API 讓開發者可以生成圖片，以下主要以`GPT-4o Image Generation`及`Gemini 2.0 Flash Expanded Image Generation`為主。
+Stima API 提供 Image Generation API 讓開發者可以生成圖片，以下主要以`GPT-4o Image Generation`、`Gemini 2.0 Flash Expanded Image Generation`及`Grok 3 Image Generation`。
 
 ## 使用方式 (以 Python 為例)
 
@@ -52,9 +52,41 @@ curl -X POST "https://api.stima.tech/v1/chat/completions" \
   -d '{"model": "<MODEL_ALIAS>", "messages": [{"role": "user", "content": [{"type": "text", "text": "把圖片改成吉卜力風格"}, {"type": "image_url", "image_url": {"url": "data:image/png;base64,"}}]}
 ```
 
+```python
+import requests
+import json
+
+url = "https://api.stima.tech/v1/chat/completions"
+
+payload = json.dumps({
+   "max_tokens": 4096,
+   "model": "<MODEL_ALIAS>",
+   "messages": [
+      {
+         "role": "user",
+         "content": [
+            {
+               "type": "text",
+               "text": "Generate a beautiful landscape image"
+            },
+         ]
+      }
+   ]
+})
+headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer <STIMA_API_KEY>',
+   'Content-Type': 'application/json'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
+```
+
 ## 參數說明
 
-- `model`: 模型目前支援`gpt-4o-image`及`gemini-2.0-flash-exp-image-generation`。
+- `model`: 模型目前支援`gpt-4o-image`、`gemini-2.0-flash-exp-image-generation`及`grok-3-image`。
 - `prompt`: 要生成的圖片描述。
 - `STIMA_API_KEY`: 您的 API 金鑰。
 - 圖片輸入: 轉換成**base64**格式
