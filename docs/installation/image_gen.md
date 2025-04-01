@@ -42,16 +42,6 @@ response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)
 ```
 
-## 使用方式 (以 bash 為例)
-
-```bash
-curl -X POST "https://api.stima.tech/v1/chat/completions" \
-  -H "Accept: application/json" \
-  -H "Authorization: Bearer <STIMA_API_KEY>" \
-  -H "Content-Type: application/json" \
-  -d '{"model": "<MODEL_ALIAS>", "messages": [{"role": "user", "content": [{"type": "text", "text": "把圖片改成吉卜力風格"}, {"type": "image_url", "image_url": {"url": "data:image/png;base64,"}}]}
-```
-
 ```python
 import requests
 import json
@@ -82,6 +72,16 @@ headers = {
 response = requests.request("POST", url, headers=headers, data=payload)
 
 print(response.text)
+```
+
+## 使用方式 (以 bash 為例)
+
+```bash
+curl -X POST "https://api.stima.tech/v1/chat/completions" \
+  -H "Accept: application/json" \
+  -H "Authorization: Bearer <STIMA_API_KEY>" \
+  -H "Content-Type: application/json" \
+  -d '{"model": "<MODEL_ALIAS>", "messages": [{"role": "user", "content": [{"type": "text", "text": "把圖片改成吉卜力風格"}, {"type": "image_url", "image_url": {"url": "data:image/png;base64,"}}]}
 ```
 
 ## 參數說明
