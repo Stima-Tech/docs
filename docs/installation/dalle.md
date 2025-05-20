@@ -1,30 +1,32 @@
-# 使用 DALL-E API
+# 使用 GPT-image-1 和 Dall-E 3 
 
 ## 以 Python 為例
 
 ```python
-from openai import OpenAI
-key = '<STIMA_API_KEY>' 
-client = OpenAI(
-    base_url="https://api.stima.tech/v1",
-    api_key=key
-)
+import requests
+import json
 
-response = client.images.generate(
-  model="<MODEL>",
-  prompt="a white siamese cat",
-  size="1024x1024",
-  quality="standard",
-  n=1,
-)
+url = "https://api.stima.tech/v1/images/generations"
 
-image_url = response.data[0].url
-print(image_url)
+payload = json.dumps({
+   "model": "MODEL_NAME",
+   "prompt": "A cute baby sea otter",
+   "n": 1,
+   "size": "1024x1024"
+})
+api_key = "STIMA_API_KEY"
+headers = {
+   'Authorization': f'Bearer {api_key}',
+   'Content-Type': 'application/json'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
 ```
 
 ## 參數說明
 
-- `<MODEL>`: 要使用的模型，目前僅支援 `dall-e-3`。
+- `<MODEL>`: 要使用的模型，目前支援 `gpt-image-1`, `dall-e-3`。
 - `size`: 圖片大小，目前僅支援 `1024x1024`, `1792x1024`, `1024x1792`。
-- `quality`: 圖片品質，目前僅支援 `standard`, `hd`。
 - `STIMA_API_KEY`: 您的 API 金鑰
