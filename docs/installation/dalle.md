@@ -1,4 +1,4 @@
-# 使用 GPT-image-1 和 Dall-E 3 
+# 使用 GPT-Image-1 和 Dall-E 3 
 
 ## 以 Python 為例
 
